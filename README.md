@@ -1,6 +1,6 @@
 # Face-Emotion-Recognition-Deep-Learning-Project
 
-1 Project Introduction
+# 1 Project Introduction
 
 The Indian education landscape has been undergoing rapid changes for the past 10 years owing to
 the advancement of web-based learning services, specifically, eLearning platforms.
@@ -23,7 +23,14 @@ which can be analysed using deep learning algorithms.
 Deep learning backed system not only solves the surveillance issue, but it also removes the human bias from the system, and all information is no
 longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
 
-2 Problem Statements
+# 2 Problem Statements
 
 We will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
 The solution to this problem is by recognizing facial emotions.
+-----------------------------------------------------------------------------------
+
+# Dataset:-
+
+There are many datasets to work on the this project but we have chosen this one which can be downloaded from the link below through kaggle-
+
+https://www.kaggle.com/datasets/msambare/fer2013
