@@ -23,6 +23,9 @@ which can be analysed using deep learning algorithms.
 Deep learning backed system not only solves the surveillance issue, but it also removes the human bias from the system, and all information is no
 longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
 
+![face emotion recognition image1](https://user-images.githubusercontent.com/60994606/167482504-24ad27cb-e1d4-423b-87df-ed140691f457.jpeg)
+
+
 # 2 Problem Statements
 
 We will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
