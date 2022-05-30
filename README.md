@@ -62,6 +62,9 @@ DeepFace is a deep learning facial recognition system created by a research grou
 Xception architecture is a linear stack of depth wise separable convolution layers with residual connections. This makes the architecture very easy to define and modify; it takes only 30 to 40 lines of code using a high level library such as Keras or Tensorflow not unlike an architecture such as VGG-16, but rather un- like architectures such as Inception V2 or V3 which are far more complex to define. An open-source implementation of Xception using Keras and Tensorflow is provided as part of the Keras Applications module2, under the MIT license. We used Adam as our optimizer after training for 70 epochs using Adam and a batch size of 785, we achieved 64% accuracy on the test set.
 
 ![image](https://user-images.githubusercontent.com/60994606/170902341-a4c1836e-919b-47d4-90c5-356e99a97fc3.png)
+
+The above image shows the final infrastructure of the Xception model. A fully connected neural layer that contains residual depth wise separable convolution where each convolution followed by batch normalization and Relu activation function. The last layer applies a global average pooling and softmax activation function to produce prediction.
+
 ----------------------------------------------------------------
 
 # Using Transfer Learning Resnet 50:-
