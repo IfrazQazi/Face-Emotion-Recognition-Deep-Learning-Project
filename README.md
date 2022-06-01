@@ -111,7 +111,7 @@ Most of the publications which achieved state-of-the-art accuracies on FER2013 u
 Rather than take a purely theoretical approach, we thought it would be challenging and novel to apply our work to the real world by developing a web app to run our model on-device in real-time. We deployed the app in Heroku. If you see in the starting section of GitHub repo you see that all the requirement files are there for creating an app on Heroku of name “face-emotion-recognition-off”. But due to high slug size the buffering takes time so we have run our app working on local and it ran properly and app is also fine also we’ve included video on GitHub repo.
 
 HerokuLink: - 
-https://face-emotion-recognition-akram.herokuapp.com/
+https://face-emotion-recognition-ifraz.herokuapp.com/
 
 ==========================================================================================================
 
