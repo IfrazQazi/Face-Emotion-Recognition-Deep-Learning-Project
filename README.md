@@ -90,3 +90,39 @@ Thus, I decided that I will deploy the model.
 
 
 -----------------------------------------------------------------------------------------
+
+RESULTS / DISCUSSION
+Accuracy-Driven Models
+Table 1 shows the accuracies our best models achieved on the FER2013 private test dataset.
+
+![image](https://user-images.githubusercontent.com/60994606/171454522-c1befb2c-e38d-467d-9611-fc247fd7e117.png)
+![image](https://user-images.githubusercontent.com/60994606/171454570-0a03891e-fe28-4444-8538-410edec3a764.png)
+
+Most of the publications which achieved state-of-the-art accuracies on FER2013 utilized auxiliary training data. Table 1 demonstrates our accuracy gains from employing auxiliary data with care taken to avoid dataset bias. It also depicts our success in implementing class weighting, which significantly increased accuracies on frequently misclassified emotions. Table 2 demonstrates the weighted average of precision, Recall, F1 score parameters of the confusion matrix. From the table we can conclude that the best F1 score was obtained by CNN model.
+
+![image](https://user-images.githubusercontent.com/60994606/171454821-857cf060-f780-4ceb-8eef-7a74cae507ad.png)
+
+![image](https://user-images.githubusercontent.com/60994606/171454862-7850bb93-d6f3-4114-9a3b-da92c2e12b4a.png)
+
+=========================================================================================================
+
+# Web APP 
+
+Rather than take a purely theoretical approach, we thought it would be challenging and novel to apply our work to the real world by developing a web app to run our model on-device in real-time. We deployed the app in Heroku. If you see in the starting section of GitHub repo you see that all the requirement files are there for creating an app on Heroku of name “face-emotion-recognition-off”. But due to high slug size the buffering takes time so we have run our app working on local and it ran properly and app is also fine also we’ve included video on GitHub repo.
+
+HerokuLink: - 
+https://face-emotion-recognition-akram.herokuapp.com/
+
+==========================================================================================================
+
+# CONCLUSION 
+
+●	We used different models but the Custom CNN model works pretty fine because it gives good accuracy result on test dataset.
+
+●	We build the WebApp using Streamlit and deployed in Heroku. 
+
+●	The model which was created by custom CNN model gave training accuracy of  71% and test accuracy of 68%.
+
+●	I have also included the video of my WebApp working in Local.
+
+
